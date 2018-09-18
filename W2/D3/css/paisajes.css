@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+body{
+	margin:0 auto;
+}
+
+h1{
+font-family: 'Source Sans Pro', sans-serif;
+margin:1%;
+}
+
+#one{background-image: url("images/image1.jpg");}
+#two{background-image: url("images/image2.jpg");}
+#three{background-image: url("images/image3.jpg");}
+#four{background-image: url("images/image4.jpg");}
+#five{background-image: url("images/image5.jpg");}
+#six{background-image: url("images/image6.jpg");}
+#seven{background-image: url("images/image7.jpg");}
+#eigth{background-image: url("images/image8.jpg");}
+#nine{background-image: url("images/image9.jpg");}
+
+.container {
+	display:flex;
+	flex-wrap: wrap
+}
+.container div{
+	flex:1;
+	min-width:360px;
+	margin:10px;
+	height:230px;
+	background-size: cover;
+}
+
+
+
+	
+
+
+

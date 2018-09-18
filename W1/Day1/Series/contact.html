@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+</head>
+<body>
+
+<h1>Contacto</h1>
+
+<h3>Llena el siguiente formulario para enviarnos tu informacion</h3>
+<form action="" method="POST">
+	<fieldset>
+		<legend>Informacion del Usuario</legend>
+				<label><strong>Nombre</strong></label>
+				<input type="text" name="name" placeholder="nombre" required/>
+				<hr>
+				<label><strong>Usuario</strong></label>
+				<input type="email" name="user" placeholder="usuario" required/>
+				<hr>
+				<label><strong>Contraseña</strong></label>
+				<input type="password" minlength="5" maxlength="10" placeholder="password"name="pwd" required/>
+	<hr>
+	<div><strong>Genero</strong></div>
+		<label>Masculino</label>
+		<input type ="radio" name="gender" checked/>
+		<label>Femenino</label>
+		<input type ="radio" name="gender"/>
+		<label>Otro</label>
+		<input type ="radio" name="gender"/>
+	</fieldset>
+	
+	<fieldset>
+		<legend>Informacion General</legend>
+	<div><strong>Serie Favorita</strong><div>
+	<label>Game of Thrones</label>
+	<input type ="checkbox" name="got"/>
+	<label>Stranger Things</label>
+	<input type ="checkbox" name="st"/>
+	<label>Vikings</label>
+	<input type ="checkbox" name="vikings"/>
+	<label>Black Mirror</label>
+	<input type ="checkbox" name="bm"/>
+	<label>Peaky Blinders</label>
+	<input type ="checkbox" name="pb"/>
+	<hr>
+	<div><strong>Pais</strong></div>
+	<select>
+		<option>Mexico</option>
+		<option>España</option>
+		<option>Colombia</option>
+		<option>Ecuador</option>
+		<option>Chile</option>
+	</select>
+	<hr>
+	<div><strong>Comentarios</strong></div>
+	<textarea placeholder ="Escribe aquí" rows="10" cols="80" name="textarea"></textarea>
+	<hr>
+	<div><strong>Adjunta tu CV</strong></div>
+	<input type="file" name="file"/>
+	<hr>
+	<div><input type ="checkbox" name="libro2"/><span>Aceptar terminos de usuario</span></div>
+	<hr>
+	<input type="submit" name="submit"/>
+	<button type="submit">Enviar</button>
+</fieldset>
+</form>
+
+
+<a href="series_info.html"><p>Return</p></a>
+
+</body>
+</html>
